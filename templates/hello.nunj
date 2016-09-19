@@ -1,0 +1,16 @@
+<mjml>
+  <mj-body>
+    <mj-container>
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            Hello {{ name }}!
+          </mj-text>
+          {% for button in buttons %}
+            <mj-button>{{ button }}</mj-button>
+          {% endfor %}
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
