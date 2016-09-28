@@ -9,6 +9,11 @@ var mailplate = function(options){
   }
 
   this.render = function(templateName, data, callback){
+
+    if(options.templateDir){
+      templateName = options.templateDir + templateName;
+    }
+
     renderer.render(templateName, data, function(err, result){
       if(err) return callback(err);
       try{
