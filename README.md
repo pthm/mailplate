@@ -6,6 +6,8 @@
 ###Experimental
 This project is still in early development. Proceed with caution, breaking changes will be coming
 
+Only tested with [nunjucks](https://mozilla.github.io/nunjucks)
+
 ###Installation
 
 ```
@@ -45,3 +47,7 @@ mailplate.render('./hello.nunj', {
   </mj-body>
 </mjml>
 ```
+
+### Caveats
+
+- You cannot use `<mj-include path="template.mjml">` instead use your template engines include function in nunjucks this is `{% include "template.html" %}`
