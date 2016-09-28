@@ -31,7 +31,7 @@ mailplate.render('./hello.nunj', {
 });
 ```
 
-*hello.nunj*
+**hello.nunj**
 ```html
 <mjml>
   <mj-body>
