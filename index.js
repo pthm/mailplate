@@ -1,6 +1,6 @@
 var mjml = require('mjml');
 var nunjucks = require('nunjucks');
-
+var path = require('path');
 var mailplate = function(options){
 
   var renderer = nunjucks;
@@ -11,7 +11,7 @@ var mailplate = function(options){
   this.render = function(templateName, data, callback){
 
     if(options.templateDir){
-      templateName = options.templateDir + templateName;
+      templateName = path.resolve(options.templateDir, templateName);
     }
 
     renderer.render(templateName, data, function(err, result){
