@@ -3,18 +3,18 @@
   MJML + Your favourite templating engine
 </p>
 
-###Experimental
+### Experimental
 This project is still in early development. Proceed with caution, breaking changes will be coming
 
 Only tested with [nunjucks](https://mozilla.github.io/nunjucks)
 
-###Installation
+### Installation
 
 ```
 npm install mailplate -s
 ```
 
-###Usage
+### Usage
 
 ```javascript
 var Mailplate = require('mailplate');
