@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://cdn.midrive.com/img/mailplate.png"/><br/>
+  <img src="https://i.imgur.com/oYDr4jW.png"/><br/>
   MJML + Your favourite templating engine
 </p>
 
